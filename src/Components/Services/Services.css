@@ -1,0 +1,157 @@
+.services img{
+    position: relative;
+    height: 70vh;
+    width: 100%;
+} 
+.s_heading{
+    display: flex;
+    font-size: 2rem;
+    flex-direction: column;
+}
+
+.heading span{
+    font-size: 5rem;
+    color:rgb(27, 45, 79);
+}
+.container{
+    padding: 3rem 6rem;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(250, 239, 224); */
+
+}
+.whyUs{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    color: rgb(27, 45, 79);
+}
+.whyUs h1{
+    font-size: 3rem;   
+}
+
+.reason{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 60px;
+    background-image: url("img14.jpg");
+    background-size: contain;
+   
+}
+.reason-2 h2{
+    padding: 30px 30px;
+    margin-top: 20px;
+    color: rgb(27, 45, 79);
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.reason-2{
+    display: flex;
+    justify-content: space-around;
+}
+.menus{
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 6rem; ;
+}
+.menus img{
+    height: 400px;
+    width: 400px;
+}
+.forth-container{
+    padding: 3rem 6rem;
+    display: flex;
+    justify-content: center;
+}
+.forth-container img{
+    height: 650px;
+    width: 600px;
+}
+.container-fifth{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 8rem;
+    margin-top: 5rem;
+}
+.main-event{
+    width: 88%;
+    margin-left: 100px;
+}
+.card-title{
+    color: black;
+    font-size: 1.8rem;
+}
+.card-link{    
+    text-decoration: none;
+    font-size: 1rem;
+    color:white ;
+}
+.card{
+    /* background-color:#1b2430; */
+    margin-bottom: 0;
+    width: 20rem;
+    height: 12rem;
+    display: flex;
+    border-style: groove;
+    border-width: 40px;
+    padding: 10px 10px;
+}
+.last-container{
+    margin-top: 4rem;
+   margin-left: 8rem; 
+ width: 80%;
+}
+
+@media screen and (max-width:769px) {
+
+    .menus{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+   
+    .menus img{
+        height: 300px;
+        width: 300px;
+        margin-bottom: 15px;
+    }
+    .reason{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 10px 20px;
+    }
+    .reason-2 h2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 1.3rem;
+    }
+    .services{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .whyUs h1{
+        font-size: 2rem;
+    }
+   
+    .forth-container img{
+        height: 350px;
+        width: 300px;
+    }
+    .main-event{
+        display: flex;
+        justify-content: center;
+        flex-wrap:wrap ;
+        margin: 30px;
+    }
+    .container-fifth{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    
+}

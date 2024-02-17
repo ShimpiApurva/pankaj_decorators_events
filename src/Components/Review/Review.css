@@ -1,0 +1,77 @@
+.container-first{
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px;
+    
+}
+.container-first img{
+    height: 600px;
+    width: 600px;
+}
+.gallery{
+    padding: 10px 30px;
+    aspect-ratio: 3/1;
+}
+.gallery img{
+    border-style: groove;
+    border-color: black ;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 300px;
+    width: 450px;
+}
+.container-sec h2{
+    padding: 30px 30px;
+    /* margin-bottom: 20px; */
+    color: #385070;
+    font-size: 3.5rem;
+}
+.container-first Button{
+    height: 50px;
+    width: 30%;
+   margin-left: 50px;
+}
+ .Top-Heading{
+ background-color: black;
+} 
+
+.Top-Heading h2{
+    transform: none;
+    /* color: rgb(189, 30, 30); */
+    font-size: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-image: url("Images/downld.jpg");
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.container-third{
+    display: flex;
+    margin-top: 30px;
+    padding: 50px 50px;
+}
+.container-third img1{
+    height: 500px;
+    width: 500px;
+}
+
+@media screen and (max-width:769px){
+    .container-first img{
+        display: flex;
+        justify-content: center;
+        height: 400px;
+        width: 400px;
+    }
+    .gallery{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

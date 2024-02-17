@@ -1,0 +1,17 @@
+.back{
+    position: relative;
+}
+img{
+    height: 85vh;
+    width: 100%;
+}
+.heading{
+    position: absolute;
+    top: 40%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
+.heading p{
+    margin-top: 30px;
+}

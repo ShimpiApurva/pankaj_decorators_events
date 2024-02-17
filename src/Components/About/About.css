@@ -1,0 +1,152 @@
+.about{
+    padding: 70px 0;
+    max-width: 90%;
+    max-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.about .img {
+    flex: 1; /* Allow the image to take up available space */
+  }
+.about img{
+    height: 500px;
+    width: 600px;
+    object-fit: contain;
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+}
+.about .img:hover{
+    transform: scale(1.1);
+}
+/* AboutUs.css */
+  
+  .content {
+    width: auto;
+    flex: 1;
+    padding: 50px 20px;
+    border-bottom:#1b2430;
+    /* p.outset {border-style: outset;} */
+    border-style: outset;
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+    flex-wrap: wrap;
+    font-weight: 500;
+  }
+  span{
+    color:#0c5e46;
+  }
+  .content:hover{
+    transform: scale(1.1);
+}
+  h2 {
+    font-size: 2rem;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+    color: #333; /* Set the desired text color */
+  }
+  h2:hover{
+    transform: scale(1.2);
+    cursor:pointer;
+    color: #1b2430;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+  .sec-content{
+    margin-left: 160px;
+    max-width: 80%;
+    border-style: groove;
+    padding: 20px 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec-content img{
+    height: 100%;
+    width: 95%;
+  }
+  .third-content{
+    margin-left: 160px;
+    max-width: 80%;
+    padding: 50px 30px;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-style: outset; */
+    border-bottom: 3px solid #1b2430 ;
+    margin-bottom: 5rem;
+  }
+  .box{
+   
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box .first{
+    
+    font-size: 3rem;
+  }
+  .box .sec{
+   
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    
+  }
+  .box .sec span{
+   
+    display: flex;
+    justify-content: flex-start;
+  }
+
+
+  .forth-content{
+    margin-left: 160px;
+    max-width: 80%;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  .Manage-service{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .service{
+    display: flex;
+    width: 500px;
+    height: 150px;
+    aspect-ratio: 3/2;
+  }
+  .service h2{
+    background: #2f4158;
+    color: #fff;
+    /* border-style: groove; */
+    margin-left: 15px;
+    padding: 40px 0;
+    transform: none;
+    font-weight: 300;
+    font-size: 1.8rem;
+  }
+ .one{
+  width: 50%;
+ }
+
+
+  @media screen and (max-width:769px){
+    .about{
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+  }
+/* <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css"/> */
+  

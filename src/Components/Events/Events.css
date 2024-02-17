@@ -1,0 +1,31 @@
+.caption p{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.text-center{
+    padding: 30px 30px;
+    width: 100%;
+}
+.desc{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #a2acea;
+    background-color: black;
+}
+.btn{
+    height: 50px;
+    width: 200px;
+    margin-top:30px ;
+    font-size: 1.5rem;
+}
+Button{
+
+    font-size: 2rem;
+}
+.cardGroup{
+    padding: 30px 30px;
+}
+.cardImg{
+
+    height: 400px;
+}
